@@ -32,7 +32,7 @@
 
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [5000, 5001],
+	"forwardPorts": [ 5000, 5001, 1433, 4022, 135, 1434, 2382, 2383, 80, 443, 80],
 
 	// [Optional] To reuse of your local HTTPS dev cert, first export it locally using this command:
 	//  * Windows PowerShell:
@@ -49,8 +49,8 @@
 	"remoteEnv": {
 		// "ASPNETCORE_Kestrel__Certificates__Default__Password": "SecurePwdGoesHere",
 		// "ASPNETCORE_Kestrel__Certificates__Default__Path": "/home/vscode/.aspnet/https/aspnetapp.pfx",
-	}
+	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "dotnet restore"
+	"postCreateCommand": "Powershell.exe -ExecutionPolicy unrestricted -File PostCloneSetup.ps1"
 }

@@ -1,0 +1,15 @@
+{
+  "run": [
+    {
+      "tool": "require-dotnetcoresdk"
+    },
+    {
+      "tool": "require-mssql"
+    },
+    {
+      "tool": "dotnet-toolinstall",
+      "input": "dotnet-ef",
+      "additionalOptions": "--global"
+    }
+  ]
+}
