@@ -1,0 +1,88 @@
+[
+    {
+        "PackageName": "azure-cli",
+        "PackageSource" : "https://msazure.pkgs.visualstudio.com/DevProductivityProducts/_packaging/TDC-CommonCustomizers/nuget/v2",
+        "PackageVersion" : "2.5.1",
+        "Name" : "Azure CLI",
+        "Description" : "Azure CLI is optimized for managing and administering Azure resources from the command line, and for building automation scripts that work against the Azure Resource Manager.",
+        "Type" : "PackageFeed"
+    },
+    {
+        "PackageName" : "azure-storage-emulator",
+        "PackageSource" : "https://msazure.pkgs.visualstudio.com/DevProductivityProducts/_packaging/TDC-CommonCustomizers/nuget/v2",
+        "PackageVersion" : "5.10.0",
+        "Name" : "Azure Storage Emulator",
+        "Description" : "The Microsoft Azure storage emulator is a tool that emulates the Azure Blob, Queue, and Table services for local development purposes.",
+        "Type" : "PackageFeed",
+        "RestartRequired": true
+    },
+    {
+        "PackageName" : "cosmosdb-emulator",
+        "PackageSource" : "https://msazure.pkgs.visualstudio.com/DevProductivityProducts/_packaging/TDC-CommonCustomizers/nuget/v2",
+        "PackageVersion" : "2.9.2.001",
+        "Name" : "Azure CosmosDB Emulator",
+        "Description" : "The Azure Cosmos Emulator provides a high-fidelity emulation of the Azure Cosmos DB service.",
+        "Type" : "PackageFeed",
+        "RestartRequired": true
+    },
+    {
+        "PackageName" : "DotNetFramework",
+        "PackageSource" : "https://msazure.pkgs.visualstudio.com/DevProductivityProducts/_packaging/TDC-CommonCustomizers/nuget/v2",
+        "PackageVersion" : "4.6.01055.20170308",
+        "Name" : "Microsoft .Net Framework 4.6.1",
+        "Description" : "Microsoft .NET Framework 4.6.1 is a highly compatible, in-place update to the Microsoft .NET Framework 4, 4.5, 4.5.1, 4.5.2 and 4.6.",
+        "Type" : "PackageFeed",
+        "RestartRequired": true
+    },
+    {
+        "PackageName" : "sql-server-express",
+        "PackageSource" : "https://msazure.pkgs.visualstudio.com/DevProductivityProducts/_packaging/TDC-CommonCustomizers/nuget/v2",
+        "PackageVersion" : "2019.20200409",
+        "Name" : "Microsoft SQL Server 2019 Express 2019.20200409",
+        "Description" : "Express edition is the entry-level, free database and is ideal for learning and building desktop and small server data-driven applications",
+        "Type" : "PackageFeed",
+        "RestartRequired": true
+    },
+    {
+        "PackageName" : "docker-desktop",
+        "PackageSource" : "https://msazure.pkgs.visualstudio.com/DevProductivityProducts/_packaging/TDC-CommonCustomizers/nuget/v2",
+        "PackageVersion" : "2.2.0.5",
+        "Name" : "Docker Desktop for Windows v2.2.0.5",
+        "Description" : "Configures Docker Desktop and appropriate permissions. Docker Desktop is an easy-to-install application for your Mac or Windows environment that enables you to start coding and containerizing in minutes.",
+        "Type" : "PackageFeed",
+        "RestartRequired": true
+    },
+    {
+        "PackageName" : "git",
+        "PackageSource" : "https://msazure.pkgs.visualstudio.com/DevProductivityProducts/_packaging/TDC-CommonCustomizers/nuget/v2",
+        "PackageVersion" : "2.26.2",
+        "Name" : "Git for Windows v2.26.2 - TDC",
+        "Description" : "Git for Windows.",
+        "Type" : "PackageFeed",
+        "RestartRequired": true
+    },
+    {
+        "PackageName" : "service-fabric-runtime",
+        "PackageSource" : "https://msazure.pkgs.visualstudio.com/DevProductivityProducts/_packaging/TDC-CommonCustomizers/nuget/v2",
+        "PackageVersion" : "7.0.457.001",
+        "Name" : "Service Fabric Runtime v7.0.457",
+        "Description" : "Download and install Service Fabric Runtime v7.0.457",
+        "Type" : "PackageFeed",
+        "RestartRequired": true
+    },
+    {
+        "PackageName" : "service-fabric-sdk",
+        "PackageSource" : "https://msazure.pkgs.visualstudio.com/DevProductivityProducts/_packaging/TDC-CommonCustomizers/nuget/v2",
+        "PackageVersion" : "4.0.457",
+        "Name" : "Service Fabric SDK v4.0.457",
+        "Description" : "Download and install Service Fabric SDK v4.0.457",
+        "Type" : "PackageFeed",
+        "RestartRequired": true
+    },
+    {
+        "ScriptPath": "build\\enggSys\\devsetup\\DevEnvironmentSetup.ps1",
+        "RestartRequired": true,
+        "Name": "IoT Hub - Dev environment setup",
+        "Description": "Installs prerequisites needed to create a dev enviornment for IoT Hub"
+    }
+]
